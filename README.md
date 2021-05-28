@@ -13,6 +13,6 @@ Impelment simple TableView using **RxSwift** &amp; **RxCocoa** In this following
 Bind our model array with tableview using **bind** method available in RxCocoa and **modelSelected** method.
 
 ## Basic Flow
-  - We have items array of type **Product** declared as **PublishSubject<Product>()** because this is over observable object
+  - We have items array of type **Product** declared as **PublishSubject<<Product>>()** because this is over observable object
   - TableView is our **Observer** who constantly observe items array. Whenever items array changes tableView automatically updates the UI.
   
